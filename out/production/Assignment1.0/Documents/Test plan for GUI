@@ -1,0 +1,25 @@
+Test Plan for GUI:
+
+GUI has several components:
+1. Chessboard
+2. Blackplayer details
+3. Whiteplayer details
+4. controlpanel details
+
+TestCases for chessboard:
+1, TestValid_InvalidMove: test every pieces whether can perform a valid move or not,
+                          and check for invalid move (whether will be given a warning).
+2, TestStalemate_CheckmateCondition: test in this situation whether it will decide who wins.
+3, TestCapture: test capture situation.
+4. TestUndo: test undo function and capture with undo function.
+
+TestCases for Black player and White player:
+1. TestName: Add player's name to the list, and next time can choose from the list.
+2. TestWins/Loses/draws: test whether the counter is working
+
+TestCases for control panel:
+TestExit: Click on Exit will exit the game
+TestStart: Click on Start will start the Game
+TestRestart: Click on Restart will restart the Game,and it will show the screen completely and correctly.
+TestClear: Click on Clear to clear the score
+

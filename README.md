@@ -3,7 +3,7 @@ A two player Chess Game.
 
 ## Environment Setting
 - IDE: IntelliJ
-- Language: Java
+- Language: Java, HTML
 - Tools: JFrame, Swing, GUI
 
 ## Features

@@ -1,5 +1,6 @@
 # Chess-Game
 A two player Chess Game.
+A simple GUI based chess game that implements basic Object-oriented programming concepts in Java.
 
 ## Environment Setting
 - IDE: IntelliJ
@@ -7,9 +8,14 @@ A two player Chess Game.
 - Tools: JFrame, Swing, GUI
 
 ## Features
+- GUI Developed using Java Swing/Awt
 - Add two new pieces Elephant and Spy with different moving methods
-- REDO function
+- UNDO function
 - Detections for possible path of current piece.
+- Checking for checkmate and stalemate.
+- 
+## Run the game 
+GUI.java file
 
 ## Class Implemented
 
@@ -38,3 +44,6 @@ class Board
  */
 class GUI
 ```
+
+## Note
+This is an undergrads project and there are bugs in it. The logic of detecting checkmate need further review. 
